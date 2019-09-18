@@ -1,4 +1,4 @@
-Updated May 13 2019
+Updated Sep 18 2019
 
 # Lab 100: Setting Up Your DevCS
 Note: If DevCS has already been provisioned and set up with link to OCI you can skip to lab 200.
@@ -6,7 +6,7 @@ Note: If DevCS has already been provisioned and set up with link to OCI you can 
 ## Introduction
  In this lab we will learn how to configure our DevCS environment.
 
- ## Objectives
+## Objectives
 - Have a functioning Repository
 - Understand the CONFIG file
 - Have an understanding of the general DevCS tools we will be using.
@@ -20,7 +20,8 @@ Required Artifacts
 - A pre-provisioned OIC instance and developer rights within the instance.
 - Access to your OCI Account
 - A faceless account for OIC instance that allows us to run APIs against the environment.
-- An understanding of all the OIC artifacts.
+- A faceless account for DevCS
+- An understanding of all the OIC artifacts. (Processes, Integrations, Connections, Packages, etc...)
 
 
 Part 1. Entering DevCS Environment

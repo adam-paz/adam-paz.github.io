@@ -7,9 +7,9 @@ This workshop walks you through how to create a Continuous Integration and Conti
 
 **How to Get Your Free Cloud Trial Account**
 
-> If you already have an Oracle Cloud account then you can skip this section. If you don't have an Oracle Cloud account then you can quickly and easily sign up for a free trial account that provides:\
-> \$300 of free credits good for up to 3500 hours of Oracle Cloud usage\
-> Credits can be used on all eligible Cloud Platform and Infrastructure services for the next 30 days\
+> If you already have an Oracle Cloud account then you can skip this section. If you don't have an Oracle Cloud account then you can quickly and easily sign up for a free trial account that provides:
+> $300 of free credits good for up to 3500 hours of Oracle Cloud usage
+> Credits can be used on all eligible Cloud Platform and Infrastructure services for the next 30 days
 > Your credit card will only be used for verification purposes and will not be charged unless you 'Upgrade to Paid' in My Services
 >
 > ![http://www.oracle.com/webfolder/technetwork/tutorials/learning\_path/images/700705-auto-dw-social-bn728\_-152.png](images/pic1.png)
@@ -29,8 +29,13 @@ For the purposes of this lab we will be using just one integration environment, 
 ### **DevCS: Configuration File and Build Scripts**
 Developer Cloud Service(DevCS) is a tool that we will be using to build out our CICD pipeline. DevCS has many tools within it, but for the purposes of this lab we will be using its Repository and Builds. The repository is a git repository we will be using to store all of our artifacts including our configuration files. The builds uses hudson to run scripts to export and import our OIC artifacts. This config file will allow us to dynamically change our OIC artifacts that we want to move while maintaining a static build script .
 
-###  **Navigate to Lab 100**
+###  **About This Lab**
+This lab is not meant to give you an end to end full solution to all of your CICD needs, it will, however, give you a jumping off point for doing so. It will give you the tools to understand how to tackle the problem of how to create a CICD pipeline for OIC in general and give you some initial scripts to get you on your way. We will walk you through how to set up one of our two scripts and this should provide the tooling for you to set up the second script on your own. If there are multiple people following this lab follow lab 100 altogether. In lab 200 there is a point that specifies when you can split up and do your own repos and builds. 
+
+##  **Navigate to Lab 100**
 
 - _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window. You're now ready to continue with **Lab 100**.
+
+Feedback would be much appreciated, if you have any feedback please email me at - adam.paz@oracle.com
 
   ![](images/LabMenuIcon.png)

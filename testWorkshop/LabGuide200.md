@@ -1,4 +1,4 @@
-Updated: May 13th 2019
+Updated Sep 18 2019
 
 # Lab 200: Configuring Your DevCS
 
@@ -13,12 +13,9 @@ Updated: May 13th 2019
 
 ------------------
 
-## 
 
 Steps
 -----
-
-## 
 
 ### STEP 1: Creating our Project
 The first thing we are going to do here is, creating our project. In the Projects tab of DevCS click on the **+Create** button in the top right. 
