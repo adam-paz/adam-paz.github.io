@@ -134,8 +134,8 @@ done
 cd ..
 done
 ```
-
-Again we loop through any connectors that are speicified in the config files and pull down their necessary data.
+### Get Connections
+Now we loop through any connectors that are specified in the config files and pull down their necessary data. We do this separately from our full refresh so that we can modularly do CICD.
 ```bash
 #loop through connectors to pull
 for connector in ${GET_CONNECTIONS}
