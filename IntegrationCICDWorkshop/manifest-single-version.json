@@ -1,0 +1,35 @@
+{
+    "workshop": {
+        "title": "CICD with Oracle Integrations",
+        "description": "Description of this workshop.",
+        "theme": "default",
+        "interactive": "https://launch.oracle.com/?",
+        "labs": [{
+                "number": "0",
+                "filename": "Intro.md",
+                "title": "Intro - Instructor Led",
+                "description": "Step-by-step workshop instructions"
+            },
+            {
+                "number": "100",
+                "filename": "LabGuide100.md",
+                "title": "Lab 100: Oracle Integrations Setup",
+                "description": "Understand and look through our integration artifacts"
+            },
+            {
+                "number": "200",
+                "filename": "LabGuide200.md",
+                "title": "Lab 200:  DevCS",
+                "description": "Short description of lab 200"
+            },
+            {
+                "number": "300",
+                "filename": "LabGuide300.md",
+                "title": "Lab 300: Builds ",
+                "description": "Short description of lab 300"
+            }
+
+
+        ]
+    }
+}
