@@ -1,20 +1,15 @@
-Updated: May 13 2019
+Updated Sep 18 2019
 
 
-# Lab 300: Running and Understanding Our Build Script
- 
-====================
+# Lab 300: Understanding Our Build Script
 
-### We will be looking deeper into our export build.
-
-##### Similar concepts can be applied to our import script as well.
-
-#### Note: these scripts are editable and these are not necessarily the best scripts possible. The scripts can be done in any coding language, the following script is a mixture of bash and node js.
+Note: these scripts are editable and these are not necessarily the best scripts possible. The scripts can be done in any coding language, the following script is a mixture of bash and node js.
 
 All APIs can be found in this documentation(Curl commands are API calls):https://docs.oracle.com/en/cloud/paas/integration-cloud/rest-api/index.html
 
 ## Lets break down our script
 
+### Initial Step
  Our first lines here allow us to access our integration environment files inside of our CONFIGS folder. chmod changes the permissions and source allows us to use the variable stored in our files. the ${xyz} and $xyz notation is how you access a variable in the shell script.
 ```bash
 chmod 755 CONFIGS/env-${OIC_SOURCE_ENV}
@@ -139,8 +134,8 @@ done
 cd ..
 done
 ```
-
-Again we loop through any connectors that are speicified in the config files and pull down their necessary data.
+### Get Connections
+Now we loop through any connectors that are specified in the config files and pull down their necessary data. We do this separately from our full refresh so that we can modularly do CICD.
 ```bash
 #loop through connectors to pull
 for connector in ${GET_CONNECTIONS}

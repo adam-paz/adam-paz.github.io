@@ -1,23 +1,21 @@
-Updated: May 13th 2019
+Updated Sep 18 2019
 
-# Lab 200: Configuring Our DevCS
+# Lab 200: Configuring Your DevCS
 
 ## Introduction
  In this lab we will be configuring our DevCS environment to have the repositories we need. A
 
- **Key Objectives**:
+## Objectives:
 
 - Clone a github repository into DevCS 
+
 - Set up our builds for integration exportation
 
 ------------------
 
-## 
 
 Steps
 -----
-
-## 
 
 ### STEP 1: Creating our Project
 The first thing we are going to do here is, creating our project. In the Projects tab of DevCS click on the **+Create** button in the top right. 

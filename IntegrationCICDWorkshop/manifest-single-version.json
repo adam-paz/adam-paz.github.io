@@ -1,35 +1,37 @@
 {
     "workshop": {
-        "title": "CICD with Oracle Integrations",
-        "description": "Description of this workshop.",
+        "title": "CI/CD pipeline using Wercker",
+        "description": "CI/CD pipeline using Wercker",
         "theme": "default",
         "interactive": "https://launch.oracle.com/?",
         "labs": [{
                 "number": "0",
                 "filename": "Intro.md",
-                "title": "Intro - Instructor Led",
+                "title": "Intro",
                 "description": "Step-by-step workshop instructions"
+
             },
             {
                 "number": "100",
                 "filename": "LabGuide100.md",
-                "title": "Lab 100: Oracle Integrations Setup",
-                "description": "Understand and look through our integration artifacts"
+                "title": "Lab 100: Setting Up Your DevCS",
+                "description": "Setting Up Your DevCS"
+
             },
             {
                 "number": "200",
                 "filename": "LabGuide200.md",
-                "title": "Lab 200:  DevCS",
-                "description": "Short description of lab 200"
+                "title": "Lab 200: Configuring Our DevCS",
+                "description": "Configuring Our DevCS"
+
             },
             {
                 "number": "300",
                 "filename": "LabGuide300.md",
-                "title": "Lab 300: Builds ",
-                "description": "Short description of lab 300"
+                "title": "Lab 300: Understanding Our Build Script",
+                "description": "Walking through our export.sh"
+
             }
-
-
         ]
     }
 }
