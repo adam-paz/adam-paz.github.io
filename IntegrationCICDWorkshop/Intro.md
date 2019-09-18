@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This workshop walks you through how to create a Continuous Integration and Continuous Delivery(CICD) Pipeline for Oracle Integration Cloud(OIC) Artifacts including: Integrations, Connectors, Packages, Processes, and Visual Builder Cloud Applications. Allowing us to implement DevOps to our integration development. This lab is only meant to be a jumping off point and we will only be giving you a step-by-step process for exporting artifacts. The purpose of this lab is to give you the tools to create and edit your own CICD pipeline while providing a backbone for both exporting and importing artifacts.
+This workshop walks you through how to create a Continuous Integration and Continuous Delivery(CICD) Pipeline for Oracle Integration Cloud(OIC) Artifacts including: Integrations, Connectors, Packages, Processes, and Visual Builder Cloud Applications. This allows us to implement DevOps to our integration development. This lab is only meant to be a jumping off point and we will be giving you a step-by-step process for exporting artifacts. The purpose of this lab is to give you the tools to create and edit your own CICD pipeline while providing a backbone for both exporting and importing artifacts.
 
 **How to Get Your Free Cloud Trial Account**
 
@@ -21,7 +21,7 @@ This workshop walks you through how to create a Continuous Integration and Conti
 DevOps or Developer Operations is a methodology, mindset and culture that allows companies and projects to be continuously changed, tested and deployed to a live production environment. Instead of large releases every couple months, companies that employ DevOps practices are able to have lots of smaller releases weekly or bi-weekly. This allows for more immediate bug fixes and for new features to be released much more frequently. This in-turn increases the overall quality of your product or process.
 
 ### **Why should I use it with OIC?**
-DevOps can be extremely important for OIC. It allows us to fix issues with our applications having inconsistencies or issues more quickly and more frequently. Not only that but it will allow us to store all versions of our OIC artifacts. If we accidentally allow a bug to be pushed to production we can quickly move back to our last version or even two or three versions back.
+DevOps can be extremely important for OIC. It allows us to fix issues with our applications having inconsistencies or issues more quickly and more frequently. Not only that, but it will allow us to store all versions of our OIC artifacts. If we accidentally allow a bug to be pushed to production we can quickly move back to our last version or even two or three versions back.
 
 ### **How will our CICD Pipeline work?**
 For the purposes of this lab we will be using just one integration environment, however, in a production environment we recommend using three integration environments. The reason for this is to have a more modular building and production process. The three environments would be development(DEV), testing(TEST), and production(PROD). So our development and building can happen in our DEV environment then when complete these artifacts can be moved to test to be tested thoroughly before moving to production where our live OIC artifacts live. If testers find an issue they can push issues to the DEV team for the DEV team to try and fix. If no issues are found they can be moved to PROD, where the OIC artifacts can work in our live environments. 
@@ -34,7 +34,7 @@ This lab is not meant to give you an end to end full solution to all of your CIC
 
 ##  **Navigate to Lab 100**
 
-- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window. You're now ready to continue with **Lab 100**.
+- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window. You're now ready to continue with [**Lab 100**](https://adam-paz.github.io/IntegrationCICDWorkshop/?page=LabGuide100.md).
 
 Feedback would be much appreciated, if you have any feedback please email me at: adam.paz@oracle.com
 

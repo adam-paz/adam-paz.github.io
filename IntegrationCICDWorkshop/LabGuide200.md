@@ -71,7 +71,7 @@ The first thing we need to edit is our **OIC_HOST_NAME**, replace this with your
 ex. _yourintegrationenv-yourcloudacc.integration.ocp.oraclecloud.com_
 ![](images/31.png)
 
-Next scroll down to the source section, for now we will only be exporting integrations. Here you can include your integration IDs, connection IDs and package IDs depending on what you'd like to export. 
+Next scroll down to the source section, for now we will only be exporting integrations. Here you can include your integration IDs, connection IDs and package names depending on what you'd like to export.
 
 ## IMPORTANT
 
@@ -79,6 +79,10 @@ Next scroll down to the source section, for now we will only be exporting integr
 
  Follow the image below for formatting. 
 ![](images/32.png)
+
+You can find your Integration and Connection IDs by hitting the info button on the specific integration or connection. 
+![](images/32.1.png)
+![](images/32.2.png)
 
 Next click **commit** in the top right and add any commit messages and details you'd like.
 ![](images/33.png)

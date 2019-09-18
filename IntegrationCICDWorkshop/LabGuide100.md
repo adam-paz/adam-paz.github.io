@@ -19,8 +19,8 @@ Required Artifacts
 -   The following lab requires an Oracle Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 - A pre-provisioned OIC instance and developer rights within the instance.
 - Access to your OCI Account
-- A faceless account for OIC instance that allows us to run APIs against the environment.
-- A faceless account for DevCS
+- A service account for OIC instance that allows us to run APIs against the environment.
+- A service account for DevCS
 - An understanding of all the OIC artifacts. (Processes, Integrations, Connections, Packages, etc...)
 
 
@@ -68,7 +68,7 @@ Give the description of Integration Pipeline Virtual Machine Template, and click
 
 ![](images/11.png)
 
-From here we will configure the software our Template has. The software we choose here is software that will exist on the VM we will provision.
+Now, we will configure the Template's software. The software we choose here is software that will exist on the VM we will provision.
 
 ![](images/12.png)
 
