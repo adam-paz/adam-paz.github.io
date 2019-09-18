@@ -20,7 +20,7 @@ This workshop walks you through how to create a Continuous Integration and Conti
 ###  **What is DevOps?**
 DevOps or Developer Operations is a methodology, mindset and culture that allows companies and projects to be continuously changed, tested and deployed to a live production environment. Instead of large releases every couple months, companies that employ DevOps practices are able to have lots of smaller releases weekly or bi-weekly. This allows for more immediate bug fixes and for new features to be released much more frequently. This in-turn increases the overall quality of your product or process.
 
-### **Why should I use it with OIC**
+### **Why should I use it with OIC?**
 DevOps can be extremely important for OIC. It allows us to fix issues with our applications having inconsistencies or issues more quickly and more frequently. Not only that but it will allow us to store all versions of our OIC artifacts. If we accidentally allow a bug to be pushed to production we can quickly move back to our last version or even two or three versions back.
 
 ### **How will our CICD Pipeline work?**
@@ -36,6 +36,6 @@ This lab is not meant to give you an end to end full solution to all of your CIC
 
 - _You can see a list of Lab Guides_ by clicking on the **Menu Icon** in the upper left corner of the browser window. You're now ready to continue with **Lab 100**.
 
-Feedback would be much appreciated, if you have any feedback please email me at - adam.paz@oracle.com
+Feedback would be much appreciated, if you have any feedback please email me at: adam.paz@oracle.com
 
   ![](images/LabMenuIcon.png)
