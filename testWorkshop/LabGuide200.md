@@ -5,7 +5,7 @@ Updated Sep 18 2019
 ## Introduction
  In this lab we will be configuring our DevCS environment to have the repositories we need. A
 
- **Key Objectives**:
+## Objectives:
 
 - Clone a github repository into DevCS 
 

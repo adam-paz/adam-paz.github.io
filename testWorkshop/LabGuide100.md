@@ -6,7 +6,7 @@ Note: If DevCS has already been provisioned and set up with link to OCI you can 
 ## Introduction
  In this lab we will learn how to configure our DevCS environment.
 
-## Objectives
+## Objectives:
 - Have a functioning Repository
 - Understand the CONFIG file
 - Have an understanding of the general DevCS tools we will be using.
