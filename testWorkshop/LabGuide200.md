@@ -1,6 +1,6 @@
 Updated: May 13th 2019
 
-# Lab 200: Configuring Our DevCS
+# Lab 200: Configuring Your DevCS
 
 ## Introduction
  In this lab we will be configuring our DevCS environment to have the repositories we need. A
@@ -8,6 +8,7 @@ Updated: May 13th 2019
  **Key Objectives**:
 
 - Clone a github repository into DevCS 
+
 - Set up our builds for integration exportation
 
 ------------------

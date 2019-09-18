@@ -1,7 +1,7 @@
 Updated: May 13 2019
 
 
-# Lab 300: Running and Understanding Our Build Script
+# Lab 300: Understanding Our Build Script
  
 ====================
 

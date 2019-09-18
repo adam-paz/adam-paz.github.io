@@ -1,6 +1,6 @@
 Updated May 13 2019
 
-# Lab 100: Setting Up your DevCS
+# Lab 100: Setting Up Your DevCS
 Note: If DevCS has already been provisioned and set up with link to OCI you can skip to lab 200.
 
 ## Introduction
@@ -40,14 +40,14 @@ Part 1. Entering DevCS Environment
 
 
 
-#### STEP 2: Navigate to DevCS
+### STEP 2: Navigate to DevCS
 Next we will navigate to our DevCS instance by clicking on the hamburger menu on the too left, expanding our services tab and clicking on developer.
 ![](images/5.png)
 
 From this page we will click on the hamburger menu for your particular instance and click on Access Service Instance. This will lead us directly to our DevCS page.
 ![](images/6.png)
 
-#### STEP 3: Setting up our DevCS
+### STEP 3: Setting up our DevCS
 Once we are in DevCS we will connect to our OCI Account and spin up our virtual machine that we will use to run our build scripts. First click on **OCI Account** tab on the top of our DevCS screen.
 ![](images/7.png)
 
