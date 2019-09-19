@@ -189,7 +189,16 @@ node<<EOF
 EOF
 done
 ```
+### Get Process Projects
+
 Lastly we will pull our Process Automation projects specified in the config file and push everything we have pulled down into our current directory.
+
+note: In the configuration file for pulling projects you must use a Space ID in order to get this ID you can use this api:
+```
+<OIC_HOST_NAME>/ic/api/process/v1/spaces/
+```
+Here you can search for your specific space by creator, name etc... to find the space ID you need.
+
 ```bash
 
 #Pull down relevant process Applications

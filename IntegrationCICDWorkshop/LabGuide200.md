@@ -73,7 +73,7 @@ ex. _yourintegrationenv-yourcloudacc.integration.ocp.oraclecloud.com_
 
 Next scroll down to the source section, for now we will only be exporting integrations. Here you can include your integration IDs, connection IDs and package names depending on what you'd like to export.
 
-## IMPORTANT
+#### IMPORTANT
 
 **If all of the integrations you want to pull are contained in a package you can export all of them and all connectors associated by exporting the package. This is called a full refresh. However, we have the option here to pull down specific integrations and connections for when we edit only smaller pieces of our full project or asset and don't want to be doing full refreshes every time.**
 
